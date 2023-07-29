@@ -15,7 +15,37 @@
             </div>
             <div id="search">
                 <div id="search_header">find the tool(s) you need:</div>
-                <input type="search" id="search_text_input" placeholder="search">
+                <div id="search_text_input_container"><input type="search" id="search_text_input" placeholder="search"></div>
+                <div id="subject_dropdown" class="filter_dropdown">
+                    <details>
+                        <summary><b>subject</b></summary>
+                            <input type="checkbox" id="subject_dropdown_math" name="subject_dropdown_math" value="math">
+                            <label for="subject_dropdown_math">math</label><br>
+
+                            <input type="checkbox" id="subject_dropdown_science" name="subject_dropdown_science" value="science">
+                            <label for="subject_dropdown_science">science</label><br>
+
+                            <input type="checkbox" id="subject_dropdown_english" name="subject_dropdown_english" value="english">
+                            <label for="subject_dropdown_english">english</label><br>
+
+                            <input type="checkbox" id="subject_dropdown_history" name="subject_dropdown_history" value="history">
+                            <label for="subject_dropdown_history">history</label><br>
+
+                            <input type="checkbox" id="subject_dropdown_language" name="subject_dropdown_language" value="language">
+                            <label for="subject_dropdown_language">language</label><br>
+
+                            <input type="checkbox" id="subject_dropdown_art" name="subject_dropdown_art" value="art">
+                            <label for="subject_dropdown_art">art</label><br>
+                    </details>
+                </div>
+
+                <div id="class_dropdown" class="filter_dropdown">
+                    <details>
+                        <summary><b>class</b></summary>
+                            <input type="checkbox" id="class_dropdown_analysis-h" name="class_dropdown_analysis-h" value="math">
+                            <label for="subject_dropdown_math">analysis h</label><br>
+                    </details>
+                </div>
             </div>
         </div>
         <div id="left"></div>
