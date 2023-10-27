@@ -1,0 +1,46 @@
+* {
+    font-family: Roboto;
+}
+
+.eqxn {
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    margin: auto;
+    transform: transition(0, 50%);
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.title {
+    left: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.calculator {
+    left: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.input {
+    width: 500px;
+    height: 100px;
+    top: 50%;
+    margin: auto;
+    font-size: 56px;
+    text-align: center;
+}
+
+.inputBoxDiv {
+    width: 500px;
+    height: 100px;
+    left: 50%;
+    margin: auto;
+    top: 50%;
+    padding: 20px;
+}

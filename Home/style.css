@@ -37,7 +37,7 @@ body {
     width: 100%; */
 }
 
-.example_tool {
+.tool_home_icon {
     width: 250px;
     height: 250px;
     background: linear-gradient(0deg, rgba(195, 31, 68, 0.75), rgba(195, 31, 68, 0.25)), url('./images/ghstools_thumbnail_template(250).jpg');
@@ -45,8 +45,9 @@ body {
     border-radius: 10px;
 }
 
-.example_tool:hover {    
+.tool_home_icon:hover {  
     background: url('./images/ghstools_thumbnail_template(250).jpg');
+    cursor: pointer;
 }
 
 #about {
