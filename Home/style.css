@@ -40,13 +40,19 @@ body {
 .tool_home_icon {
     width: 250px;
     height: 250px;
-    background: linear-gradient(0deg, rgba(195, 31, 68, 0.75), rgba(195, 31, 68, 0.25)), url('./images/ghstools_thumbnail_template(250).jpg');
-    /* background-color: #C31F44; */
+    border-radius: 10px;
+}
+
+.tool_home_icon_container {
+    /* background: linear-gradient(0deg, rgba(255, 0, 60, 0.71), rgba(195, 31, 69, 0.055)); */
+    background: rgba(255, 0, 60, 0.81);
+    z-index: 99;
     border-radius: 10px;
 }
 
 .tool_home_icon:hover {  
-    background: url('./images/ghstools_thumbnail_template(250).jpg');
+    /* background: url('./images/ghstools_thumbnail_template(250).jpg'); */
+    opacity: 40%;
     cursor: pointer;
 }
 
