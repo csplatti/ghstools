@@ -4,6 +4,9 @@ console.log("hello");
 
 const toolContainer = document.querySelector("#left");
 
+let classes = [];
+let subjects = [];
+
 //what is needed for a tool icon
     //tool link
     //image
@@ -11,7 +14,9 @@ const toolContainer = document.querySelector("#left");
 
 class Tool {
 
-    constructor(link, image, title) {
+    constructor(link, image, title, subject, course) {
+        this.subject = subject;
+        this.course = course;
         this.link = link;
         this.image = image;
         this.title = title;
@@ -19,6 +24,14 @@ class Tool {
 
     getImage() {
         return this.image;
+    }
+
+    getSubject() {
+        return this.subject;
+    }
+
+    getCourse() {
+        return this.course;
     }
 
     pushTool() {
@@ -37,5 +50,5 @@ class Tool {
 
 }
 
-let polarPractice = new Tool("../Tools/polarPractice/polarPractice.html", "./images/ghstools_thumbnail_template(250).jpg", "Polar Practice");
+let polarPractice = new Tool("./Tools/polarPractice/polarPractice.html", "./images/ghstools_thumbnail_template(250).jpg", "Polar Practice", "math", ["analysis", "iac", "precalc"]);
 polarPractice.pushTool();
